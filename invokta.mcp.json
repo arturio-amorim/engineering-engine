@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "engineering-engine",
+  "version": "0.1.0",
+  "title": "Engineering Engine",
+  "description": "MCP access to the Norte Labs implementation Action Engine.",
+  "capabilityIds": [
+    "engineering.prepare-implementation",
+    "engineering.assess-task-readiness"
+  ],
+  "server": {
+    "name": "engineering-engine",
+    "entrypoint": "dist/mcp-stdio.js",
+    "forwardEnv": []
+  }
+}
