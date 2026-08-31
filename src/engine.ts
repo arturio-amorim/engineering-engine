@@ -1,4 +1,4 @@
-import { createEngine, type Principal } from "@invokta/core";
+import { createEngine, type Principal } from "@senda/core";
 
 import type { EngineeringDependencies } from "./application/ports.js";
 import { createAssessTaskReadiness } from "./capabilities/assess-task-readiness.js";
